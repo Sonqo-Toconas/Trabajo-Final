@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Curriculum vitae</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="flex">
         <img src="Sin título-1.png" alt="El Oso Programador">
@@ -42,7 +44,7 @@
             <span>Conocimientos</span>
             <div class="flex" style="align-items: baseline;">
                 <p>Javascript</p>
-                <progress value= "80" max= "100"></progress>
+                <progress value="80" max="100"></progress>
             </div>
         </aside>
     </section>
@@ -50,15 +52,19 @@
         <article>
             <span>Datos de Contacto</span>
             <ul>
-                <li>
-                    <p>Direccion: Bosque de los Cien Acres</p>
+                <button type="button" id="boton1">¡Click para mas!</button>
+                <button type="button" id="boton2">¡Click para menos!</button>
+                <li id="demo1" style="display:none">
+                    <p>I. Direccion: Bosque de los Cien Acres</p>
                 </li>
-                <li>
-                    <p>Celular: 123456789</p>
+                <li id="demo2" style="display:none">
+                    <p>II. Celular: 123456789</p>
                 </li>
             </ul>
             <hr>
         </article>
     </section>
+    <script src="function.js"></script>
 </body>
+
 </html>

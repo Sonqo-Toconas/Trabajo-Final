@@ -3,61 +3,62 @@
     --nord2: #ECEFF4;
     --nord3: #88C0D0;
     --font: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neu Helvetica", "Arial", sans-serif;
-    }
+}
 
-    body {
-        font-family: var(--font);
-        color: var(--nord1);
-    }
+body {
+    font-family: var(--font);
+    color: var(--nord1);
+}
 
-    header, section {
-        width: 960px;
-        margin: 0 auto;
-        display: flex;
-    }
+header,
+section {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+}
 
-    header {
-        background-color: var(--nord3);
-        color: var(--nord2);
-        padding: 16px;
-        margin-bottom: 20px;
-    }
+header {
+    background-color: var(--nord3);
+    color: var(--nord2);
+    padding: 16px;
+    margin-bottom: 20px;
+}
 
-    ul {
-        list-style-type: upper-roman;
-    }
+ul {
+    list-style-type: upper-roman;
+}
 
-    article {
-        width: 60%;
-    }
+article {
+    width: 60%;
+}
 
-    img {
-        width: 200px;
-        height: 200px;
-        margin-right: 16px;
-    }
+img {
+    width: 200px;
+    height: 200px;
+    margin-right: 16px;
+}
 
-    progress {
-        margin-left: 8px;
-    }
+progress {
+    margin-left: 8px;
+}
 
-    aside {
-        margin-left: 20px;
-    }
+aside {
+    margin-left: 20px;
+}
 
-    .flex {
-        display: flex;
-    }
+.flex {
+    display: flex;
+}
 
-    span {
-        border: solid 1px blue;
-        padding: 5px;
-        font-weight: bold;
-        border-radius: 20px;
-        font-size: 25px;
-    }
+span {
+    border: solid 1px blue;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 25px;
+}
 
-    hr {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
